@@ -4,7 +4,7 @@ const lastName = document.querySelector("#last_name");
 const zipCode = document.querySelector("#zip_code");
 const personalNumber = document.querySelector("#personal_number");
 const mobileNumber = document.querySelector("#mobile_number");
-const errorElement = document.querySelector("#error");
+
 
 
 form.addEventListener("submit", (e) => {
