@@ -1,0 +1,10 @@
+.form_group{
+    margin: 0 0 10px 5px;
+}
+.form_group input, .form_group select{
+    padding: 5px;
+}
+.form_group span{
+    display: block;
+      margin-bottom: 5px;
+}
