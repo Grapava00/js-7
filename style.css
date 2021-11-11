@@ -6,5 +6,17 @@
 }
 .form_group span{
     display: block;
-      margin-bottom: 5px;
+    margin-bottom: 5px;
 }
+
+.form_group #span {
+  visibility: hidden;
+  position: absolute;
+}
+
+.form_group.error #span {
+  color: red;
+  visibility: visible;
+  font-size: 10px;
+}
+
