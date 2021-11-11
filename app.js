@@ -13,16 +13,13 @@ form.addEventListener("submit", (e) => {
 });
 
 function checkInputs() {
-  const firstNameValue = firstName.value.trim();
-  const lastNameValue = lastName.value.trim();
-
-  if (firstNameValue === "") {
+  if (firstName.value === "") {
     setErrorFor(firstName, "required");
   } else {
     setSuccessFor(firstName);
   }
 
-  if (lastNameValue === "") {
+  if (lastName.value === "") {
     setErrorFor(lastName, "required");
   } else {
     setSuccessFor(lastName);

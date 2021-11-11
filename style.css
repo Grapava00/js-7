@@ -13,10 +13,16 @@
   visibility: hidden;
   position: absolute;
 }
-
 .form_group.error #span {
   color: red;
   visibility: visible;
   font-size: 10px;
 }
+.form_group.success input {
+  border-color: green;
+}
+.form_group.error input{
+  border-color: red;
+}
+
 
